@@ -30,7 +30,7 @@ const Product = ({ product }) => {
                                     {item.price}
                                 </td>
                                 <td className="px-6 py-4">
-                                    <img className="w-[200px] h-[200px]" src={item.img} alt="" />
+                                    <img className="w-[200px] h-[200px]" src={item.image} alt="" />
 
                                 </td>
                                 <td className="px-6 py-4 text-right flex gap-2">
