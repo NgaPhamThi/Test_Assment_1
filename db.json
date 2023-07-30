@@ -28,7 +28,7 @@
       "id": 5,
       "name": "Product 5",
       "price": 500,
-      "img": "https://diachishophoa.com/uploads/noidung/images/baiviet/hinh-anh-hoa-hong-do.jpg"
+      "image": "https://diachishophoa.com/uploads/noidung/images/baiviet/hinh-anh-hoa-hong-do.jpg"
     }
   ]
 }
