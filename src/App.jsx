@@ -17,6 +17,9 @@ function App() {
   const addProduct = (data) => {
     var options = {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(data)
     };
     fetch("http://localhost:3000/products", options)
