@@ -9,7 +9,7 @@ const Homepage = ({ product }) => {
                 {product.map((item) => {
                     return (
                         <div className="text-center" key={item.id}>
-                            <img className="w-[200px] h-[200px]" src={item.img} alt="" />
+                            <img className="w-[200px] h-[200px]" src={item.image} alt="" />
                             <h3>{item.name}</h3>
                             <p>{item.price}</p>
                             <Link to={`/detail/${item.id}`}> <button className="border border-l px-[20px] py-[7px] bg-red-600">Show Detail</button></Link>
